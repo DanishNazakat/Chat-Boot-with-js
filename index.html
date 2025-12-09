@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gemini AI Demo</title>
+
 </head>
 
 <body>
+    <div class="container">
+        <h2>Gemini AI – Browser Example</h2>
 
-    <h2>Gemini AI – Browser Example</h2>
+        <textarea id="prompt" rows="4" cols="50" placeholder="Ask something..."></textarea>
+        <br><br>
 
-    <textarea id="prompt" rows="4" cols="50" placeholder="Ask something..."></textarea>
-    <br><br>
+        <button onclick="generate()">Generate</button>
 
-    <button onclick="generate()">Generate</button>
-
-    <h3>Response:</h3>
-    <pre id="result"></pre>
+        <h3>Response:</h3>
+        <pre id="result"></pre>
+    </div>
 
     <!-- Gemini Browser SDK -->
     <script type="module" src="app.js"></script>
-
 </body>
 
 </html>

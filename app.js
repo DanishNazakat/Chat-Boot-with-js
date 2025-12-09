@@ -1,6 +1,6 @@
         import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
 
-        const ai = new GoogleGenerativeAI("AIzaSyBSGW1-2PccslFCE-TQ4eZzaZl_Hd-Nq_M"); // <-- ADD YOUR KEY
+        const ai = new GoogleGenerativeAI("AIzaSyC9FsHbMdOvEqL8gbc8InuIxvZFsV35j4Q"); // <-- ADD YOUR KEY
 
         async function generate() {
             const text = document.getElementById("prompt").value;
@@ -27,3 +27,5 @@
 
         // expose function
         window.generate = generate;
+
+        
